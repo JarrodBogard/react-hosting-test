@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 
 // export function Button(props) {
 //     // console.log(props)
@@ -6,14 +6,20 @@ import React from "react"
 //     return <button onClick={handleClick}>{label}</button>
 // }
 
-class ButtonClass extends React.Component{
-    constructor(props) {
-        super(props)
-    }
+// export const ButtonClass = ({
+//     label = "Default",
+//     handleClick = () => console.log("I am default"),
+// }) => <button onClick={handleClick}>{label}</button>
 
-    render() {
-        const { label= "Default", handleClick = () => console.log("I am Default") } = props
-        // return <button onClick={this.props.handleClick}>{this.props.label}</button>
-        return <button onClick={handleClick}>{label}</button>
-    }
-}
+// export class ButtonClass extends React.Component{ 
+//     constructor(props) {
+//         super(props) 
+//         // this.name = "Jay"
+//     }
+
+//     render() {
+//         const { label= "Default", handleClick = () => console.log("I am Default") } = this.props
+//         // return <button onClick={this.props.handleClick}>{this.props.label}</button>
+//         return <button onClick={handleClick}>{label}</button>
+//     }
+// }
